@@ -1,19 +1,60 @@
 
-/*header*/
+/*GENERAL SELECTORS*/
+
+li{
+   list-style-type: none; 
+   color: #f9faf8;
+   margin: 12px;
+}
+
+ul{
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER*/
 
 header{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    margin: 12px;
 }
 
 .header-right{}
 
-/*section 1*/
+/*SECTION 1*/
+
+.one{
+    display: flex;
+}
+
+.section-one-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one-image-container{
+    
+}
+
+.section-one-image{
+    max-width: 400px;
+    margin: 12px;
+}
+
 
 /*section 2*/
 
