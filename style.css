@@ -3,7 +3,6 @@
 
 li{
    list-style-type: none; 
-   color: #f9faf8;
    margin: 12px;
 }
 
@@ -19,6 +18,7 @@ ul{
 
 header{
     background-color: #1F2937;
+    color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,11 @@ header{
 /*SECTION 1*/
 
 .one{
+    
+    background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-one-content{
@@ -44,6 +48,14 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    max-width: 400px;
+
+    color: #f9faf8;
+}
+
+.section-one-content-tittle{
+   
 }
 
 .section-one-image-container{
@@ -56,7 +68,24 @@ header{
 }
 
 
-/*section 2*/
+/*SECTION 2*/
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-tittle-container{
+    
+}
+
+.small-img{
+
+    max-width: 200px;
+    max-height: 200px;
+}
 
 /*section 3*/
 
